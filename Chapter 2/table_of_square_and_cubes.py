@@ -1,0 +1,1 @@
+print("number", "\n", "\n", "square", "\n", "\n", "cubes")

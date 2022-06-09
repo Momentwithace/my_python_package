@@ -1,8 +1,8 @@
-number1 = print(input("Enter first_number :"))
-number2 = print(input("Enter second_number :"))
+number1 = int(input("Enter first_number :"))
+number2 = int(input("Enter second_number :"))
 
 if number1 > number2:
-    print(number1, 'is the max')
+    print("The biggest number is: " + str(number1))
 
 if number1 < number2:
-    print(number1, 'is the min')
+    print("The biggest number is: " + str(number2))
