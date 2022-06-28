@@ -14,5 +14,3 @@ def fibonacci(n):
             count += 1
 
 
-
-fibonacci(9)

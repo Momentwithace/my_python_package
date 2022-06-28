@@ -6,8 +6,10 @@ def histogram(word: str) -> dict[str, int]:
 
     for char in abc:
         map_[char] = word.lower().count(char)
-        # print(map_)
     return map_
 
+def histogram_2(word):
+    import string
+    return {char: word.lower().count(char) for char in string.ascii_lowercase}
 
 print(histogram("Ace alone"))
