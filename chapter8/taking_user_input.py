@@ -1,4 +1,4 @@
-for n in range(3):
+for trial in range(3):
     password = input("Enter Password: ")
     if password == "aceblack":
         break
