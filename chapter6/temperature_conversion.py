@@ -1,24 +1,20 @@
-def fahrenheit(degree_in_f):
-    c = (degree_in_f - 32) * 5/9
+input_count = 0
+while input_count <= 3:
+    temp = int(input("Enter Temperature: "))
+    user_input = int(input("""
+        Enter Temperature to convert To.
+         1 -> Convert To fahrenheit
+         2 -> Convert To Celsius
+        >>>"""))
+    input_count = input_count + 1
+    if user_input == 1:
+        fahrenheit = (temp * 1.8) + 32
+        print(f"Your Temperature is: " + str(fahrenheit) + " degree f")
 
-    return c
+    elif user_input == 2:
+        celsius = (temp - 32) * 5 / 9
+        print(f"Your Temperature is: " + str(celsius) + " degree c")
 
-result1 = fahrenheit(72)
-print(f" is {result1:.2f} Degrees C")
+    else:
+        print("Invalid Entry")
 
-def celsius(degree_in_c):
-    f = (degree_in_c * 1.8) + 32
-
-    return f
-
-result = celsius(37)
-print(f" is {result:.2f} Degrees f")
-
-
-fahrenheit_ = int(input("Enter a temperature in degree f: "))
-result1 = fahrenheit(fahrenheit_)
-print(f"{fahrenheit_} degree f = {result1:.2f} Degrees C")
-
-celsius_ = int(input("Enter a temperature in degree c: "))
-result = celsius(celsius_)
-print(f"{celsius_} degree c = {result:.2f} Degree F")

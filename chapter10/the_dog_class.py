@@ -17,4 +17,3 @@ class Dog:
 
 philo = Dog("Philo", 5)
 print(f"{philo.name} is {philo.age} year's old")
-
