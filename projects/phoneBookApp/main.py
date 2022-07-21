@@ -186,7 +186,7 @@ def delete_contact(new_user: dict):
         for contact in new_user['Contacts']:
             print(contact)
         delete_contact(new_user)
-    phonebook_page(new_user)
+    user_phone_book(new_user)
 
 
 def user_phone_book(new_user: dict):
