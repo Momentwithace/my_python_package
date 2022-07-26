@@ -1,3 +1,4 @@
+from datetime import datetime
 import re
 
 phonebook_user_list = []
@@ -35,7 +36,21 @@ def create_phoneBook(user: dict):
         print("Name should be in character")
         print("Example: 'JOHN'")
         name = input("Enter Full-Name: ")
-    gender = input("Enter Gender: ")
+    gender = ""
+
+    def gender_():
+
+        gender_pick = int(input("""
+            1 -> Male
+            2 -> Female
+        >>>"""))
+        if gender_pick == 1:
+            gender = "Male"
+        elif gender_pick == 2:
+            gender = "Female"
+        else:
+            gender_()
+    gender_()
     age = input("Enter Age: ")
     while not age.isdigit():
         print("Age should be in digit")
@@ -66,7 +81,10 @@ def create_phoneBook(user: dict):
     print("Account Successfully Created")
     print()
     print(f'Hello ' + user_name.upper() + ' your phone-book as been successfully created...')
+    date_created = datetime.now()
+    print("Date Created: " + str(date_created))
     print("Your User-name is: " + user_name + '\nYour Password is : ' + password + '\nKeep your login details save.')
+
     new_user = {'Full_name': name,
                 'Gender': gender,
                 'Age': age,
