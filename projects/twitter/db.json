@@ -1,0 +1,114 @@
+[
+    {
+        "age": "12",
+        "first_name": "ace",
+        "gender": "male",
+        "location": "sabo",
+        "password": "12345@",
+        "second_name": "black",
+        "sign_up_option": 2,
+        "user_name": "haye"
+    },
+    {
+        "age": "12",
+        "first_name": "tom",
+        "gender": "male",
+        "location": "yaba",
+        "password": "12121@",
+        "second_name": "paul",
+        "sign_up_option": 2,
+        "user_name": "tom"
+    },
+    {
+        "age": "12",
+        "first_name": "may",
+        "gender": "female",
+        "location": "rio",
+        "password": "12345&",
+        "second_name": "sandra",
+        "sign_up_option": 2,
+        "user_name": "rio"
+    },
+    {
+        "first_name": "felix",
+        "second_name": "ebrene",
+        "gender": "male",
+        "age": "23",
+        "location": "ajah",
+        "sign_up_option": 2,
+        "user_name": "blue",
+        "password": "12345@"
+    },
+    {
+        "first_name": "ace",
+        "second_name": "black",
+        "gender": "male",
+        "age": "23",
+        "location": "sabo",
+        "sign_up_option": 2,
+        "user_name": "ace",
+        "password": "12345@",
+        "followers": [],
+        "following": []
+    },
+    {
+        "first_name": "ace",
+        "second_name": "black",
+        "gender": "male",
+        "age": "23",
+        "location": "sabo",
+        "sign_up_option": 2,
+        "user_name": "ace",
+        "password": "12345@",
+        "followers": [],
+        "following": []
+    },
+    {
+        "first_name": "ace",
+        "second_name": "black",
+        "gender": "male",
+        "age": "23",
+        "location": "sabo",
+        "sign_up_option": 2,
+        "user_name": "ace",
+        "password": "12345@",
+        "followers": [],
+        "following": []
+    },
+    {
+        "first_name": "ace",
+        "second_name": "black",
+        "gender": "male",
+        "age": "23",
+        "location": "sabo",
+        "sign_up_option": 2,
+        "user_name": "ace",
+        "password": "12345@",
+        "followers": [],
+        "following": []
+    },
+    {
+        "first_name": "ace",
+        "second_name": "black",
+        "gender": "male",
+        "age": "23",
+        "location": "sabo",
+        "sign_up_option": 2,
+        "user_name": "ace",
+        "password": "12345@",
+        "followers": [],
+        "following": []
+    },
+    {
+        "first_name": "ace",
+        "second_name": "black",
+        "gender": "male",
+        "age": "23",
+        "location": "sabo",
+        "sign_up_option": 2,
+        "user_name": "ace",
+        "password": "12345@",
+        "followers": [],
+        "following": []
+    }
+]
